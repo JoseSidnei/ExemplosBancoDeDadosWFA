@@ -11,7 +11,7 @@ namespace ExemploBancoDados02.Repositorio
 {
     class HeroiRepositorio
     {
-        private string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\104958\Documents\exemplo02.mdf;Integrated Security=True;Connect Timeout=30";
+        private string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\104895\Documents\ExemploBancoDeDados02.mdf;Integrated Security=True;Connect Timeout=30";
         private SqlConnection connection = null;
 
         public HeroiRepositorio()
